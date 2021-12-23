@@ -1,0 +1,62 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+
+
+html, body {
+    /* margin: 0; */
+    padding: 6px;
+    overflow: hidden;
+    top: 40%;
+    right: 0;
+}
+
+
+
+.killContainer {
+    
+    height: 29px;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: right;
+    align-items: center;
+    /* border-radius: 12px; */
+    /* background: rgba(0,0,0,0.75); */
+    /* background-image:linear-gradient(45deg,#a200ff,rgba(59, 251, 1, 0.876)); */
+    background: rgba(0,0,0,0.75);
+    /* border-radius: 5px; */
+    border: 2px solid #ff0000;
+    color: #FFF;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 35px;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+
+.weapon {
+    height: 17px;
+    padding-top: 6px;
+     display: inline;
+    vertical-align: top;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+
+.killer {
+    color: rgb(255, 255, 255)
+}
+
+.killed {
+    color: rgb(0, 255, 34);
+
+}
+
+.clear {
+    clear:both
+}
